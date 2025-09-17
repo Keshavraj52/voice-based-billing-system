@@ -1,0 +1,7 @@
+streamlit
+speechrecognition
+pyttsx3
+pandas
+reportlab
+qrcode[pil]
+pillow
