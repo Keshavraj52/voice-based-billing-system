@@ -65,6 +65,7 @@ def listen_for_voice():
         return "No speech detected within timeout"
     except Exception as e:
         return f"Error: {e}"
+    
 def parse_voice_command(command):
     """Parse voice command to extract product and quantity"""
     command = command.lower()
